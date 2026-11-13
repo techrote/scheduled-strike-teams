@@ -16,6 +16,20 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 - [Owner gates #9](https://github.com/techrote/scheduled-strike-teams/issues/9) — administrator, editorial and physical acceptance actions.
 - [Team issues #2–8](https://github.com/techrote/scheduled-strike-teams/issues) — specialist progress receipts and handoffs.
 
+## Teams summary
+
+| Repo | Ideal workers | Last assigned workers | Estimated work remaining | Last significant milestone achieved |
+| --- | ---: | ---: | --- | --- |
+| [Greygen](https://github.com/techrote/scheduled-strike-teams/issues/2) | 2 | 0 | ~2–4 days | |
+| [HWiNFOterm](https://github.com/techrote/scheduled-strike-teams/issues/3) | 1 | 0 | ~1–3 days | |
+| [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 1 | 0 | ~1–3 days | |
+| [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 2 | 0 | ~3–6 days | |
+| [DashMinimix](https://github.com/techrote/scheduled-strike-teams/issues/6) | 1 | 0 | ~2–5 days | |
+| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 1 | 0 | ~1–3 days | |
+| [Omnipanel](https://github.com/techrote/scheduled-strike-teams/issues/8) | 1 | 0 | ~2–4 days | |
+
+*Initial planning estimates, 13 November 2026. Days are very rough elapsed-time ranges **after work begins**, for each team's defined scope—not full-repository completion—and exclude owner-only or external gates. “Last assigned” records the most recent actual allocation (zero so far), not a live counter. Milestones are intentionally blank until the teams report verified progress.*
+
 ## Operating limits
 
 - **At most 10 concurrent active hourly tasks**, including existing schedules and monitors. The initial observed allocation was one enabled ShadeDoomVK CI A/B monitor and nine unallocated slots; re-check before scheduling.
