@@ -24,7 +24,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 | [HWiNFOterm](https://github.com/techrote/scheduled-strike-teams/issues/3) | 2 | 0 | ~1–3 days | |
 | [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 2 | 0 | ~1–3 days | |
 | [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 4 | 0 | ~3–6 days | |
-| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 initially; 2 active | #8/#9 still progressing; #10 owner acceptance | PR #10 scoped UI/Chrome CI PASS [f789dc7](https://github.com/techrote/flexdiffusion/pull/10), merge HOLD; Worker C rotated |
+| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 initially; 1 active | #8 continues; #9/#10 owner acceptance/integration | PR #9 [88aadfa7](https://github.com/techrote/flexdiffusion/pull/9) Node/Chrome PASS; PR #10 [f789dc7](https://github.com/techrote/flexdiffusion/pull/10) UI/Chrome PASS; both merge HOLD |
 
 *Indicative planning estimates, 13 November 2026. **Ideal workers** is estimated productive staffing if the project is prioritised independently, not the current share of the simultaneous 10-slot campaign. Days cover the team's agreed scope, exclude human-only gates, and are not release forecasts. “Last assigned” is a recent allocation snapshot, not a live task count. Milestones record verified progress when available; empty cells indicate none yet recorded. Actual live staffing and decisions are on the [campaign board](status/BOARD.md).*
 
