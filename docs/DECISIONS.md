@@ -33,6 +33,15 @@ Each entry should distinguish an **approved owner decision** from a **proposal o
 - **Previous allocation:** The original 1-slot Flexdiffusion allocation is superseded. Do not instantiate all remaining initial proposals without rechecking the ten-task cap.
 - **Human gate:** Merge/release/issue closure still require explicit owner approval; these schedules may be paused early on READY_OWNER or OWNER_ACTION.
 
+## 2026-11-13 ~19:14 UTC — Owner correction: DashMinimix superseded; Omnipanel dormant
+
+- **Approved owner disposition:** DashMinimix is an abandoned predecessor project. **HWiNFOterm is the fresh successor implementation** of the original telemetry concept, developed with significantly more accumulated experience. The current HWiNFOterm architecture, code, PRs and acceptance obligations are authoritative. Do not automatically transplant DashMinimix features/code or schedule its stale issue/PR backlog.
+- **Approved owner disposition:** Omnipanel is near-abandoned as a product. It may remain useful as a **philosophical and design-intent communication reference** for future projects, subject to owner choice, but not as an active engineering campaign.
+- **Allocation consequence:** Withdraw DashMinimix's original 1-slot proposal and Omnipanel's original 1-slot proposal. **Neither ever had an activated worker** in this campaign, so this releases proposed capacity only, not two actually enabled schedules. No replacement workers created by this update.
+- **Historical preservation:** [DashMinimix coordination #6](https://github.com/techrote/scheduled-strike-teams/issues/6) marked RETIRED, [Omnipanel coordination #8](https://github.com/techrote/scheduled-strike-teams/issues/8) marked DORMANT; original notes remain for provenance. [HWiNFOterm #3](https://github.com/techrote/scheduled-strike-teams/issues/3) is the active successor candidate.
+- **Planning effect:** The eligible unstarted candidate teams are Greygen, HWiNFOterm, INTUIT3D and Steelmoth. Existing Flexdiffusion scheduled work continues separately under its explicit approval. Recheck active schedule count at every allocation.
+- **Source repositories unchanged:** Neither target repository was archived, modified, had issues/PRs closed, or acquired an automation through this disposition.
+
 ## Future decision format
 
 ### YYYY-MM-DD HH:MM UTC — [approved / proposed / observed]
