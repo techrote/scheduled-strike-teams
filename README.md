@@ -9,9 +9,12 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 - [Campaign plan](docs/CAMPAIGN.md) — priorities, proposed allocations, rotation rules and owner interventions.
 - [Campaign board](status/BOARD.md) — dated snapshot of team lanes, evidence and open gates.
 - [Worker protocol](docs/WORKER_PROTOCOL.md) — scope ownership, source-verification and reporting contract.
+- [Ready-to-use prompts](docs/PROMPTS.md) — hourly specialist, GPT-6 Pro and owner review templates.
 - [Repository assessment](docs/REPOSITORY_BASELINE.md) — evidence-linked starting candidates and alternative queue.
 - [Decision log](docs/DECISIONS.md) — approved decisions versus proposals.
-- [Campaign issues](../../issues) — authoritative **live** progress discussions, owner-gates and per-team execution logs.
+- [Campaign issue #1](https://github.com/techrote/scheduled-strike-teams/issues/1) — live orchestration and allocation decisions.
+- [Owner gates #9](https://github.com/techrote/scheduled-strike-teams/issues/9) — administrator, editorial and physical acceptance actions.
+- [Team issues #2–8](https://github.com/techrote/scheduled-strike-teams/issues) — specialist progress receipts and handoffs.
 
 ## Operating limits
 
