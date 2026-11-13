@@ -2,6 +2,14 @@
 
 **Scope:** 109 repositories returned for techrote at inventory time, assessed by oldest last code push first, then real open issue/PR content, branch/CI dependencies and likelihood of source-verified owner handoff. The counts and activity dates below are **point-in-time**, not live truth.
 
+## Owner corrections — 13 November 2026
+
+- [DashMinimix](https://github.com/techrote/DashMinimix): **abandoned, superseded by HWiNFOterm.** The prior issue/PR inventory is historical only; no more implementation or 'easy win' work should be assigned to it.
+- [HWiNFOterm](https://github.com/techrote/HWiNFOterm): **active fresh implementation** of the same original telemetry concept, developed with substantially more experience; it is not a DashMinimix continuation branch or automatically obligated to support old designs.
+- [Omnipanel](https://github.com/techrote/omnipanel): **near-abandoned**, reserved as optional philosophical and design-intent reference for later projects. Do not schedule it for implementation or carry old architecture into new projects by default.
+
+These owner dispositions supersede earlier suitability assessments below. Retain legacy counts and source links only as historical evidence of why the initial candidates were considered.
+
 ## Findings
 
 - The least recently pushed repos (late August/early September) are mostly small prototypes without outstanding issues/PRs: EdgeCraft, Brachistochrone-Lab, CyberTerm, PNG2ANSI, PlasmaTerm, pyANSI, ThermoPipeParameter, buildtest and XenoField. They may merit release polish but not backlog-closure workers.
@@ -14,9 +22,9 @@
 
 | Repository | Last pushed | Issues / PRs | First useful action | Coordination |
 | --- | --- | ---: | --- | --- |
-| [DashMinimix](https://github.com/techrote/DashMinimix) | 12 Sep | 9 / 1 | [PR #18](https://github.com/techrote/DashMinimix/pull/18) config preservation then bounded audits | [team #6](https://github.com/techrote/scheduled-strike-teams/issues/6) |
+| [DashMinimix](https://github.com/techrote/DashMinimix) | 12 Sep | 9 / 1 (historical) | **Withdrawn: abandoned, replaced by HWiNFOterm**; PR #18 not assigned | [retired team #6](https://github.com/techrote/scheduled-strike-teams/issues/6) |
 | [sandimations](https://github.com/techrote/sandimations) | 16 Sep | 2 / 1 | [PR #22](https://github.com/techrote/sandimations/pull/22), enable Pages then public deployment | [owner gates #9](https://github.com/techrote/scheduled-strike-teams/issues/9) |
-| [Omnipanel](https://github.com/techrote/omnipanel) | 19 Sep | 50 / 2 | [PR #90](https://github.com/techrote/omnipanel/pull/90) publication, then [#72](https://github.com/techrote/omnipanel/pull/72) dashboard | [team #8](https://github.com/techrote/scheduled-strike-teams/issues/8) |
+| [Omnipanel](https://github.com/techrote/omnipanel) | 19 Sep | 50 / 2 (historical) | **Withdrawn: philosophical/intent reference only**; PR #90/#72 not assigned | [dormant team #8](https://github.com/techrote/scheduled-strike-teams/issues/8) |
 | [Fixitup](https://github.com/techrote/fixitup) | 24 Sep | 11 / 0 | [FUP-001](https://github.com/techrote/fixitup/issues/1) auditor before cross-repo repairs | Expansion queue |
 | [k80nsai](https://github.com/techrote/k80nsai) | 26 Sep | 21 / 2 | [PR #27](https://github.com/techrote/k80nsai/pull/27) host oracle; CUDA/K80 physical gate separate | Expansion queue |
 | [Greygen](https://github.com/techrote/greygen) | 7 Oct | 5 / 0 | [#46](https://github.com/techrote/greygen/issues/46) Pages-path browser test, [#47](https://github.com/techrote/greygen/issues/47) icons | [team #2](https://github.com/techrote/scheduled-strike-teams/issues/2) |
@@ -38,9 +46,9 @@ Other significant repos, **not initial cleanup targets**: [CyberSand](https://gi
 - **INTUIT3D #351:** semantic runtime correction is narrowly scoped; it is not general OCCT/STEP acceptance.
 - **flatCAD #32:** docs-only; user editorial assessment, not another broad engineering programme.
 - **Greygen #45:** original audit expressly says its earlier CI references are stale relative to audited main. Fresh exact-head checks required.
-- **Omnipanel #90:** publication fix explicitly does **not** implement Codex master [issue #89](https://github.com/techrote/omnipanel/issues/89). Do not close #89.
+- **Omnipanel #90:** historical publication fix did **not** implement Codex master [issue #89](https://github.com/techrote/omnipanel/issues/89). The whole repository is now reference-only; do not allocate a team or close #89 for campaign metrics.
 - **Steelmoth #119/#120/#125:** dependent oracle branches; separate integration and independent review. Do not declare physical GTX 1650S or final WebGPU promotion.
-- **DashMinimix #18:** HWiNFO source-switch preservation is a targeted change; custom persisted Qt dashboard problem belongs in #9.
+- **DashMinimix #18:** historical HWiNFO source-switch PR and desktop-state findings are **not active work**. HWiNFOterm is the replacement and owns new acceptance decisions.
 - **Flexdiffusion #10:** stacked on #8, not an independent same-base merge candidate.
 
 ## Refresh rule
