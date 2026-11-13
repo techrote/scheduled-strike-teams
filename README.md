@@ -7,6 +7,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 ## Start here
 
 - [Campaign plan](docs/CAMPAIGN.md) — priorities, proposed allocations, rotation rules and owner interventions.
+- [Refreshed Top 20](docs/TOP20_RECOMMENDATIONS.md) — ranked repos, independent ideal hourly schedule counts and specific first-team missions (13 Nov).
 - [Campaign board](status/BOARD.md) — dated snapshot of team lanes, evidence and open gates.
 - [Worker protocol](docs/WORKER_PROTOCOL.md) — scope ownership, source-verification and reporting contract.
 - [Ready-to-use prompts](docs/PROMPTS.md) — hourly specialist, GPT-6 Pro and owner review templates.
@@ -24,7 +25,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 | [HWiNFOterm](https://github.com/techrote/scheduled-strike-teams/issues/3) | 2 | 0 | ~1–3 days | |
 | [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 2 | 0 | ~1–3 days | |
 | [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 4 | 0 | ~3–6 days | |
-| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 initially; 1 active | #8 continues; #9/#10 owner acceptance/integration | PR #9 [88aadfa7](https://github.com/techrote/flexdiffusion/pull/9) Node/Chrome PASS; PR #10 [f789dc7](https://github.com/techrote/flexdiffusion/pull/10) UI/Chrome PASS; both merge HOLD |
+| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 last; 0 active | Owner/Pro integration and Windows GPU acceptance; no new hourly work recommended | PR #8 [70be959](https://github.com/techrote/flexdiffusion/pull/8) real CPU/HTTP 27/27 PASS on Linux & Windows, joining already-qualified PRs #9/#10; all three hourly workers paused, merge HOLD |
 
 *Indicative planning estimates, 13 November 2026. **Ideal workers** is estimated productive staffing if the project is prioritised independently, not the current share of the simultaneous 10-slot campaign. Days cover the team's agreed scope, exclude human-only gates, and are not release forecasts. “Last assigned” is a recent allocation snapshot, not a live task count. Milestones record verified progress when available; empty cells indicate none yet recorded. Actual live staffing and decisions are on the [campaign board](status/BOARD.md).*
 
