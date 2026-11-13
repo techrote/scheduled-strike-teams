@@ -24,11 +24,14 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 | [HWiNFOterm](https://github.com/techrote/scheduled-strike-teams/issues/3) | 2 | 0 | ~1–3 days | |
 | [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 2 | 0 | ~1–3 days | |
 | [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 4 | 0 | ~3–6 days | |
-| [DashMinimix](https://github.com/techrote/scheduled-strike-teams/issues/6) | 3 | 0 | ~2–5 days | |
 | [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 initially; 2 active | #8/#9 still progressing; #10 owner acceptance | PR #10 scoped UI/Chrome CI PASS [f789dc7](https://github.com/techrote/flexdiffusion/pull/10), merge HOLD; Worker C rotated |
-| [Omnipanel](https://github.com/techrote/scheduled-strike-teams/issues/8) | 4 | 0 | ~2–4 days | |
 
-*Initial planning estimates, 13 November 2026. **Ideal workers** is each repository's estimated productive staffing **when prioritised independently**, not the simultaneous campaign allocation; adding workers beyond the current targeted PR requires separable workstreams and may have diminishing returns. The proposed simultaneous nine-worker deployment is recorded separately in the [campaign plan](docs/CAMPAIGN.md). Days are very rough elapsed-time ranges **after work begins**, for each team's defined scope—not full-repository completion—and exclude owner-only or external gates. “Last assigned” records the most recent actual allocation (zero so far), not a live counter. Milestones are intentionally blank until the teams report verified progress.*
+*Indicative planning estimates, 13 November 2026. **Ideal workers** is estimated productive staffing if the project is prioritised independently, not the current share of the simultaneous 10-slot campaign. Days cover the team's agreed scope, exclude human-only gates, and are not release forecasts. “Last assigned” is a recent allocation snapshot, not a live task count. Milestones record verified progress when available; empty cells indicate none yet recorded. Actual live staffing and decisions are on the [campaign board](status/BOARD.md).*
+
+### Historical references — not active teams
+
+- [DashMinimix](https://github.com/techrote/scheduled-strike-teams/issues/6) — **abandoned and superseded by HWiNFOterm**. No workers, ETA or active backlog commitment; do not revive its PRs/issues as independent campaign targets.
+- [Omnipanel](https://github.com/techrote/scheduled-strike-teams/issues/8) — **dormant / near-abandoned**. Retain as historical philosophical and architectural-intent reference for possible future projects; not an implementation queue.
 
 ## Operating limits
 
