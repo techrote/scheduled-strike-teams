@@ -25,7 +25,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 | [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 2 | 0 | ~1–3 days | |
 | [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 4 | 0 | ~3–6 days | |
 | [DashMinimix](https://github.com/techrote/scheduled-strike-teams/issues/6) | 3 | 0 | ~2–5 days | |
-| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 0 | ~1–3 days | |
+| [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 | ~1–3 days | |
 | [Omnipanel](https://github.com/techrote/scheduled-strike-teams/issues/8) | 4 | 0 | ~2–4 days | |
 
 *Initial planning estimates, 13 November 2026. **Ideal workers** is each repository's estimated productive staffing **when prioritised independently**, not the simultaneous campaign allocation; adding workers beyond the current targeted PR requires separable workstreams and may have diminishing returns. The proposed simultaneous nine-worker deployment is recorded separately in the [campaign plan](docs/CAMPAIGN.md). Days are very rough elapsed-time ranges **after work begins**, for each team's defined scope—not full-repository completion—and exclude owner-only or external gates. “Last assigned” records the most recent actual allocation (zero so far), not a live counter. Milestones are intentionally blank until the teams report verified progress.*
