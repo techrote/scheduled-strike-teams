@@ -20,6 +20,19 @@ Each entry should distinguish an **approved owner decision** from a **proposal o
 - **Proposed targets:** 5–6 distinct scoped review-ready projects by 27 Nov; 8+ stretch. These are planning targets, not forecasts or achieved results.
 - **Not done:** No campaign schedules started or retuned; no target-repository PRs merged, issues closed, or settings changed during hub setup.
 
+## 2026-11-13 ~17:45 UTC — Approved and executed: Flexdiffusion three-worker strike team
+
+- **Approved:** User explicitly requested three scheduled workers for Flexdiffusion.
+- **Executed:** Three enabled hourly automations with 48 recurrences each:
+  - Inpainting PR #9: `6af74cbd1a788191be877e450ca62333`
+  - Sampler PR #8: `6af74cbef05c8191b3cf5686b18d0858`
+  - Blend Lab PR #10: `6af74cc186bc8191aec39f3f19f65bad`
+- **Verified:** 4 enabled tasks including the existing ShadeDoomVK A/B monitor, leaving 6 of the campaign's 10 slots free at launch.
+- **Ownership:** Three separate PR branches; #8 depends on #2, #10 depends on #8 and #9 stands alone on main. Shared-file reconciliations require owner/Pro review.
+- **Tracking:** [TEAM-06 #7](https://github.com/techrote/scheduled-strike-teams/issues/7); [campaign #1](https://github.com/techrote/scheduled-strike-teams/issues/1).
+- **Previous allocation:** The original 1-slot Flexdiffusion allocation is superseded. Do not instantiate all remaining initial proposals without rechecking the ten-task cap.
+- **Human gate:** Merge/release/issue closure still require explicit owner approval; these schedules may be paused early on READY_OWNER or OWNER_ACTION.
+
 ## Future decision format
 
 ### YYYY-MM-DD HH:MM UTC — [approved / proposed / observed]
