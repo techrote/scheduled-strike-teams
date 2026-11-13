@@ -24,9 +24,17 @@ Count each repository **once** in the distinct-project metric; count PR/issue di
 - Owner review cadence: typically morning, midday and evening, at minimum daily. There is no expectation of 24/7 attendance by the owner.
 - No scheduled team should be assumed to last all 14 days. On success or human-only blockade, stop recurring edits and free its slot promptly.
 
+### Current owner-approved portfolio disposition — 13 November 2026
+
+- **ACTIVE successor: [HWiNFOterm](https://github.com/techrote/HWiNFOterm)** is a fresh, separately engineered implementation of the same telemetry concept formerly pursued in DashMinimix. Its own source/tests/PRs define scope. Do **not** revive DashMinimix's legacy issue programme or silently import its code.
+- **RETIRED: [DashMinimix](https://github.com/techrote/DashMinimix)** is abandoned for strike-team implementation. [Historical coordination #6](https://github.com/techrote/scheduled-strike-teams/issues/6) remains for provenance only.
+- **DORMANT: [Omnipanel](https://github.com/techrote/omnipanel)** is near-abandoned. Its architecture and written philosophy can serve as optional **intent-communication reference material**, not as a live technical dependency, automatic feature backlog, or scheduled worker target. [Historical coordination #8](https://github.com/techrote/scheduled-strike-teams/issues/8) remains intact.
+- **Eligible unstarted teams:** Greygen (2 proposed workers), HWiNFOterm (1), INTUIT3D (1), Steelmoth (2); plus the active Flexdiffusion engagement. Starting any of these still requires an explicit owner instruction. At latest audit, **2/10 enabled and 8 slots free**. Refresh the automation inventory before allocating.
+- Two original one-slot allocations (DashMinimix and Omnipanel) are **withdrawn**, not reassigned automatically. HWiNFOterm may merit additional specialist capacity if a fresh gap assessment finds nonoverlapping work.
+
 ### Original allocation proposal (historical baseline)
 
-**Superseded in part:** Flexdiffusion is now assigned **3 active workers** rather than the original one. The table below records the original portfolio proposal; **do not activate all remaining proposed workers on top of the three new workers**. At the last verified check, 4/10 tasks were enabled (Flexdiffusion ×3, ShadeDoomVK ×1), leaving 6 slots. See the [current board](../status/BOARD.md).
+**Superseded:** This table records the original idea, **not an executable allocation**. Flexdiffusion was expanded to three schedules (two remain enabled at latest review), and the DashMinimix and Omnipanel entries have been withdrawn by owner decision. The previous snapshot of 4/10 enabled is historical; use the [current board](../status/BOARD.md) and verify live schedules.
 
 The initial audit of task schedules found 1 enabled existing ShadeDoomVK CI A/B monitor and 9 available capacity slots. This is a **point-in-time observation**, not a guarantee of the current active count.
 
@@ -36,24 +44,24 @@ The initial audit of task schedules found 1 enabled existing ShadeDoomVK CI A/B 
 | HWiNFOterm | 1 | Existing reliability PR #1 | [#3](https://github.com/techrote/scheduled-strike-teams/issues/3) |
 | INTUIT3D | 1 | Wrong-body cut correctness PR #351 | [#4](https://github.com/techrote/scheduled-strike-teams/issues/4) |
 | Steelmoth | 2 | Packaging/CI PRs and oracle dependency chain | [#5](https://github.com/techrote/scheduled-strike-teams/issues/5) |
-| DashMinimix | 1 | Existing source-switch PR #18 first | [#6](https://github.com/techrote/scheduled-strike-teams/issues/6) |
+| DashMinimix — **withdrawn** | 1 (historical) | Original source-switch PR #18 idea, **not to be executed** | [#6](https://github.com/techrote/scheduled-strike-teams/issues/6) |
 | Flexdiffusion | 1 | PNG alpha-mask PR #9 first | [#7](https://github.com/techrote/scheduled-strike-teams/issues/7) |
-| Omnipanel | 1 | Publication PR #90, then resource dashboard #72 | [#8](https://github.com/techrote/scheduled-strike-teams/issues/8) |
+| Omnipanel — **withdrawn** | 1 (historical) | Original publication/dashboard idea, **not to be executed** | [#8](https://github.com/techrote/scheduled-strike-teams/issues/8) |
 | Existing ShadeDoomVK CI monitor | 1 | Finish A/B monitoring; retire when evidence delivered | Not a new campaign team |
 | **Total proposed** | **10** | **9 potential new workers + 1 existing monitor** | **None newly enabled by this plan** |
 
 **Fast-track human unlock:** [sandimations PR #22](https://github.com/techrote/sandimations/pull/22) reports near-complete qualification but missing Pages admin configuration; see [owner gates #9](https://github.com/techrote/scheduled-strike-teams/issues/9). When enabled, insert a one-worker finisher into the first released slot. [flatCAD #32](https://github.com/techrote/flatCAD/pull/32) is principally an owner editorial review rather than an ongoing hourly task.
 
-### Why this selection
+### Revised selection rationale
 
-The portfolio mixes short, reviewable existing PRs (HWiNFOterm, INTUIT3D, Flexdiffusion, Omnipanel) with two small independent improvements in Greygen, cross-PR hardening in Steelmoth, and a bounded review of DashMinimix's existing candidate. These compete better on likelihood of review-ready handoff than large unfinished research programmes with dependent physical gates.
+Focus on bounded review-ready scope in **HWiNFOterm, Greygen, INTUIT3D, Steelmoth and Flexdiffusion**, with short specialist engagements in sandimations/other candidates after blockers clear. The original DashMinimix and Omnipanel selections no longer reflect owner intent. Avoid scheduling their old PR and issue backlogs merely to increase closure counts.
 
 ## Rotation windows — flexible, not fixed contracts
 
 | Window | Main objective | Rotation rule |
 | --- | --- | --- |
 | 13–15 Nov | Launch and validate existing candidates; expose owner gates | Free slot after first source-exact handoff |
-| 15–18 Nov | Finish small projects; collect qualified issue/PR dispositions | Sandimations first after Pages unlock; use freed slots on Omnipanel #72 / DashMinimix / remaining Greygen |
+| 15–18 Nov | Finish small projects; collect qualified issue/PR dispositions | Sandimations after Pages unlock; then HWiNFOterm and remaining Greygen/INTUIT3D work, as owner directs |
 | 18–22 Nov | Specialist technical convergence | Consider ASCIIomium (up to 2), Fixitup (1–2), or OrcaSlicer #27 only if predecessors/CI are ready |
 | 22–26 Nov | Final source-matched qualification and release packages | Do not initiate substantial new features without credible same-window exit |
 | 27 Nov | Campaign reconciliation, stop schedules, prepare owner-review digest | Record READY / owner action / technical HOLD / deferred for every lane |
