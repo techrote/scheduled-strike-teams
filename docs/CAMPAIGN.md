@@ -1,6 +1,6 @@
 # Campaign plan — 13–27 November 2026
 
-**Owner decision status:** the 14-day objective and use of this repository have been established; the **specific task allocations remain proposed**, not activated. [Campaign issue #1](https://github.com/techrote/scheduled-strike-teams/issues/1) holds live decisions.
+**Owner decision status:** the campaign is authorised. **Flexdiffusion's three hourly workers were explicitly approved and activated on 13 November; the other team allocations remain proposals.** [Campaign issue #1](https://github.com/techrote/scheduled-strike-teams/issues/1) holds live decisions.
 
 ## Outcome and measurement
 
@@ -24,7 +24,9 @@ Count each repository **once** in the distinct-project metric; count PR/issue di
 - Owner review cadence: typically morning, midday and evening, at minimum daily. There is no expectation of 24/7 attendance by the owner.
 - No scheduled team should be assumed to last all 14 days. On success or human-only blockade, stop recurring edits and free its slot promptly.
 
-### Initial allocation — proposal only
+### Original allocation proposal (historical baseline)
+
+**Superseded in part:** Flexdiffusion is now assigned **3 active workers** rather than the original one. The table below records the original portfolio proposal; **do not activate all remaining proposed workers on top of the three new workers**. At the last verified check, 4/10 tasks were enabled (Flexdiffusion ×3, ShadeDoomVK ×1), leaving 6 slots. See the [current board](../status/BOARD.md).
 
 The initial audit of task schedules found 1 enabled existing ShadeDoomVK CI A/B monitor and 9 available capacity slots. This is a **point-in-time observation**, not a guarantee of the current active count.
 
