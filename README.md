@@ -14,6 +14,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 - [Repository assessment](docs/REPOSITORY_BASELINE.md) — evidence-linked starting candidates and alternative queue.
 - [Decision log](docs/DECISIONS.md) — approved decisions versus proposals.
 - [Campaign issue #1](https://github.com/techrote/scheduled-strike-teams/issues/1) — live orchestration and allocation decisions.
+- [TRIO-017 software-ready candidate #10](https://github.com/techrote/scheduled-strike-teams/issues/10) — qualified v0.1.0, awaiting owner audio/MIDI/terminal acceptance.
 - [Owner gates #9](https://github.com/techrote/scheduled-strike-teams/issues/9) — administrator, editorial and physical acceptance actions.
 - [Team issues #2–8](https://github.com/techrote/scheduled-strike-teams/issues) — specialist progress receipts and handoffs.
 
@@ -24,6 +25,7 @@ This repository is the coordination and evidence hub for short-lived hourly engi
 | [Greygen](https://github.com/techrote/scheduled-strike-teams/issues/2) | 3 | 0 | ~2–4 days | |
 | [HWiNFOterm](https://github.com/techrote/scheduled-strike-teams/issues/3) | 2 | 0 | ~1–3 days | |
 | [INTUIT3D](https://github.com/techrote/scheduled-strike-teams/issues/4) | 2 | 0 | ~1–3 days | |
+| [tuisynth-codex](https://github.com/techrote/scheduled-strike-teams/issues/10) | 3 if new engineering needed; **0 now** | 0 scheduled; 1 Pro engagement | Software gates complete; human audio/MIDI evaluation outstanding | v0.1.0 [Draft PR #35](https://github.com/techrote/tuisynth-codex/pull/35) at `40584a8`: 4/4 exact-head CI PASS, 10 artifacts; READY_OWNER / merge HOLD |
 | [Steelmoth](https://github.com/techrote/scheduled-strike-teams/issues/5) | 4 | 0 | ~3–6 days | |
 | [Flexdiffusion](https://github.com/techrote/scheduled-strike-teams/issues/7) | 3 | 3 last; 0 active | Owner/Pro integration and Windows GPU acceptance; no new hourly work recommended | PR #8 [70be959](https://github.com/techrote/flexdiffusion/pull/8) real CPU/HTTP 27/27 PASS on Linux & Windows, joining already-qualified PRs #9/#10; all three hourly workers paused, merge HOLD |
 
@@ -54,4 +56,4 @@ A *scoped PR ready for owner review* must not be counted as a *whole project rel
 
 Scheduled workers should update their **own team issue**, not repeatedly rewrite the board. A coordinator or owner updates the board after daily reviews (typically morning, midday and evening). Avoid issue duplication and prose-only claims of success: attach exact head SHA, checks and links. Keep historical snapshots dated rather than silently overwriting findings.
 
-**Initial baseline:** 13 November 2026. **Schedule activation:** separate, owner-gated action; creating this repository does not authorise launching the proposed lineup.
+**Initial baseline:** 13 November 2026. **Latest board:** [status/BOARD.md](status/BOARD.md). The original cap was 10 concurrent hourly tasks, but the 14 November live schedule inventory shows 13 active non-strike-team tasks; do not launch additional tasks without an updated owner allocation decision.
