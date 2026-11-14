@@ -42,6 +42,15 @@ Each entry should distinguish an **approved owner decision** from a **proposal o
 - **Planning effect:** The eligible unstarted candidate teams are Greygen, HWiNFOterm, INTUIT3D and Steelmoth. Existing Flexdiffusion scheduled work continues separately under its explicit approval. Recheck active schedule count at every allocation.
 - **Source repositories unchanged:** Neither target repository was archived, modified, had issues/PRs closed, or acquired an automation through this disposition.
 
+## 2026-11-14 ~10:00 GMT — TRIO-017 qualified in one manual Pro engagement
+
+- **Owner-provided result, independently corroborated:** [tuisynth-codex TRIO-017 PR #35](https://github.com/techrote/tuisynth-codex/pull/35) is a complete **v0.1.0 software-qualified candidate**, still Draft/open and not merged. Exact source `40584a81a42b86ea4cfd87e2277b16036c373bcb`, base/main unchanged `357215781ba0b82694e62dd4d7ba1c3697ac3159`. [GitHub Actions #43548630964](https://github.com/techrote/tuisynth-codex/actions/runs/43548630964) succeeded on the exact source, 4/4 Ubuntu/Windows, Python 3.11/3.14 jobs. Ten GitHub Actions artifacts exist and are not expired, with 14 December 2026 expiry.
+- **Disposition:** [Coordination issue #10](https://github.com/techrote/scheduled-strike-teams/issues/10) records **READY_OWNER for software**, not physical or public release. 672 regressions per lane and independent source review findings are reported in the PR; the campaign coordinator verified the GitHub workflow/job state and artifact inventory, not a fresh local execution or physical test.
+- **Outstanding gates:** real audio/listening, USB MIDI, physical Windows Terminal, 10-minute stability per instrument, licence/public distribution and explicit merge/release authorization. Keep #35 Draft/HOLD and issue #17 open; do not tag or publish.
+- **Resource implication:** One substantial manual GPT-6 Pro session closed the accessible software work that was previously proposed for three hourly workers. Remove tuisynth-codex from the new-schedule allocation queue unless owner acceptance reveals a specific follow-on bug.
+- **Current global schedule capacity observation:** 13 enabled **non-strike-team** schedules (SANDMAPS/CyberSand) at inspection, greater than the campaign's original ten total concurrent cap. No tasks were paused or created. Further campaign activation requires a new owner allocation decision or freed capacity.
+- **Follow-up:** Archive the matching GitHub Actions release and wheelhouse artifacts before their 14 December expiry if future evaluation is expected.
+
 ## Future decision format
 
 ### YYYY-MM-DD HH:MM UTC — [approved / proposed / observed]
